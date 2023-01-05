@@ -4,3 +4,7 @@ Carlos Bautita tiene 25 años y nacio en Mexico
 Viviendo en todo el mundo.
 
 Mañana nos enfocaremos en su vida laboral.
+
+Un usuario muy amable compartio un link en github
+En donde muestra todos los comandos utilizados en este curso!
+https://github.com/guajardo/Comandos-git
