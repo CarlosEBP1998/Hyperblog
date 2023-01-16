@@ -9,5 +9,5 @@ Un usuario muy amable compartio un link en github
 En donde muestra todos los comandos utilizados en este curso!
 https://github.com/guajardo/Comandos-git
 
-Hola soy Carlos B y me estoy uniendo al proyecto, ojo
+Hola soy Carlos B y me estoy uniendo al proyecto como colaborador foraneo, ojo
 No soy Carlos Bautista, tengo 24 y estoy sano.
