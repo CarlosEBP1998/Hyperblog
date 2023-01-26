@@ -1,0 +1,170 @@
+   sudo apt install git
+   git --version
+   git config -l
+   git config --global user.name "Joaquin Vazquez"
+   git config -l
+   git config --global user.mail "caedbape2@gmail.com"
+   git config -l
+   git config -l
+   git clone https://github.com/CarlosEBP1998/Hyperblog.git
+   git status
+  git commit -am "Mi primer commit estoy emocionadogit status"
+  git config --global user.name "Carlitos B"
+  git confing -l
+  git config -l
+  git status
+  git log
+  git reset fb05855eeb8b987ef7a8dde3536b08197eb98d04 --hard
+  git log
+  git reset fb05855eeb8b987ef7a8dde3536b08197eb98d04 --hard
+  git reset c180fd665740209f20850d911b66b21c5b3d7330 --hard
+  git log
+  git config -l
+  git commit -am "Mi primer commit estoy emocionadogit status"
+  git status
+  git log
+  git pull origin main
+  git branch
+  git log 
+  git push origin main
+  git init
+  git config -l
+  git status
+  git add 
+  git add .
+  git commit -m "Primero"
+  git branch -M master main
+  git branch
+  git remote -v
+  git remote add origin main git@github.com:CarlosTheDev1998/test.git
+  git remote add origin git@github.com:CarlosTheDev1998/test.git
+  git remote -v
+  git pull origin main 
+  git pull origin main --allow-unrelated-histories
+  git branch
+  git remote
+  git remote -v
+  git status
+  git log
+  git pull origin main --allow-unrelated-histories
+  git pull origin main
+  git --version
+  git commit -am "Segundo commit"
+  git status
+  git log
+  git pull origin main
+  git pull origin main --allow-unrelated-histories
+  git add .
+  git commit -m "Agregamos otro archivo qp"
+  git log
+  git pull origin main
+  git pull origin main --allow-unrelated-histories
+  git config pull.rebase false
+  git pull origin main
+  git pull origin main --allow-unrelated-histories
+  git log
+  git push origin main
+  git config -l
+  git status
+  git log
+  git branch
+  git remote
+  git remote -v
+  git history
+  git log
+  git config -l
+  git log
+  git diff c180fd665740209f20850d911b66b21c5b3d7330 5fd7356b3101d2e302d424c934323f4be0b4b8ba
+  git push origin master
+  git push origin main
+  git remote -v
+  git push origin main
+  git cd ..
+  git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  git remote -v
+  git remote
+  git remote -v
+  git commit -am "Mi primer commit estoy emocionadicimo"
+  git log
+  git pull origin main
+  git push origin main
+  git branch
+  git remote
+  git remote -v
+  git pull origin footer
+  git branch
+  git checkout main
+  git checkout footer
+  git branch
+  git checkout footer
+  git status
+  git log
+  git ls
+  git status
+  git checkout main
+  git branch -D footer
+  git pull origin footer
+  git status
+  git branch
+  git status
+  git log
+  git branch
+  git branch footer
+  git pull origin footer
+  git status
+  git checkout footer
+  git status
+  git log
+  git brach -D footer
+  git branch -D footer
+  git checkout main
+  git branch -D footer
+  git pull origin cabecera
+  git branch
+  git fetch footer:footer
+  git fetch origin/footer:footer
+  git fetch Hyperblog origin/footer:footer
+  git branch -a
+  git checkout footer
+  git branch
+  git branch -a
+  git pull origin footer
+  git branch -a
+  git status
+  git status
+  git add .
+  git status
+  git diff
+  git show
+  git branch
+  git status
+  git add blogpost.html 
+  git status
+  git add .
+  git status
+  git commit -am "Footer terminado"
+  git log
+  git pull origin footer
+  git push origin footer
+  git clone git@github.com:CarlosTheDev1998/Hyperblog.git
+  git remote -v
+  git remote -v
+  git status
+  git commit -am "Tildes con entidades y mensaje de contribucion"
+  git push origin main
+  git remote add upstream git@github.com:CarlosEBP1998/Hyperblog.git
+  git remote -v
+  git pull upstream main
+  git push origin main
+  git status
+  git branch
+  git status
+  git status
+  git branch
+  git remote -v
+  git pull upstream main
+  git diff
+  git show
+  git pull origin main
+  git push origin main
+  history | grep git > comandos.txt
