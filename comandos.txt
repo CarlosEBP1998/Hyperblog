@@ -14,10 +14,10 @@
   git config -l
   git status
   git log
-  git reset fb05855eeb8b987ef7a8dde3536b08197eb98d04 --hard
+  git reset fb05855eeb8b987ef7a8dde3536b08197eb98d--hard
   git log
-  git reset fb05855eeb8b987ef7a8dde3536b08197eb98d04 --hard
-  git reset c180fd665740209f20850d911b66b21c5b3d7330 --hard
+  git reset fb05855eeb8b987ef7a8dde3536b08197eb98d--hard
+  git reset c180fd665740209f20850d911b66b21c5b3d--hard
   git log
   git config -l
   git commit -am "Mi primer commit estoy emocionadogit status"
@@ -74,7 +74,7 @@
   git log
   git config -l
   git log
-  git diff c180fd665740209f20850d911b66b21c5b3d7330 5fd7356b3101d2e302d424c934323f4be0b4b8ba
+  git diff c180fd665740209f20850d911b66b21c5b3d5fd7356b3101d2e302d424c934323f4be0b4b8ba
   git push origin master
   git push origin main
   git remote -v
@@ -168,3 +168,419 @@
   git pull origin main
   git push origin main
   history | grep git > comandos.txt
+  ------------------------------------------- 
+
+  //COMANDOS QUE UTILICE EN EL REPOSITORIO LOCAL ORIGINAL//
+  
+    git -status
+    git commit -m "Este es el primer commit de este archivo"
+    git config
+    git config --list
+    git config 
+    git config --global
+    git config --global --list
+    git config --global user.name "Carlos Bautista"
+    git config --global user.email "caedbape@gmail.com"
+   git commit -m "Este es el primer commit de este archivo"
+   git commit -m "Cambios en la edad e insercion de nueva linea"
+   git log historia.txt
+   git show historia.txt
+   git commit
+   git commit
+   git show
+   git show historia.txt
+   git log
+   git log historia.txt
+   git diff e0ad77a37420517a9a18ee14caa11dc1d1abe5a5 34a1ff9ee7458be270e2551d15d5487db2bf8e12
+   git diff 34a1ff9ee7458be270e2551d15d5487db2bf8e12 e0ad77a37420517a9a18ee14caa11dc1d1abe5a5
+   git log historia.txt
+   git diff 34a1ff9ee7458be270e2551d15d5487db2bf8e12 a3e9000c34c6b96336be640079d63432c2bf9480
+   git log
+   git reset 54483f442ec7fdde07bd72e7353f1500b1c5e48b
+   git reset 54483f442ec7fdde07bd72e7353f1500b1c5e48b --hard
+   git log
+   git diff
+   git commit -m "Arranco mi proyecto real con HTML y CSS"
+   git log
+   git log --stat
+   git checkout a3e9000c34c6b96336be640079d63432c2bf9480 historia.txt
+   git checkout master historia.txt
+   git checkout a3e9000c34c6b96336be640079d63432c2bf9480 historia.txt
+   git commit -m "Cambio de una version por otra"
+   git log --stat
+   git commit -am "Comit del master al blogpost en su version mas reciente"
+   git log
+   git --stat
+   git -stat
+   git --statt
+   git log --stat
+   git branch cabecera
+   git log
+   git show
+   git checkout cabecera
+   git show
+   git checkout origin/master 
+   git log
+   git che
+   git log
+   git checkout cabecera 
+   git commit -m "Estructura inicial de la cabecera"
+   git log
+   git checkout master 
+   git checkout cabecera 
+   git commit -am "Finalizada la cabecera con diseño azul"
+   git checkout master
+   git commit -am "Agregado el contenido adicional del blog y una mejor tipografia"
+   git log
+   git checkout cabecera 
+   git checkout master
+   git branch
+   git merge cabecera "Primer merge"
+   git merge cabecera 
+   git merge cabecera -m "Primer merge"
+   git merge cabecera -m "Primer merge"
+   git merge cabecera
+   git show
+   git log
+   git --stat css/estilos.css
+   git log --stat
+   git commit -am "Agregado el contenido adicional del blog y una mejor tipografia"
+   git log
+   git --diff aea924c4347c3d0f534cc4d13fd8fe9dc703afd1 b8587174d081d7bc9790465e559930234319ee29
+   git -diff aea924c4347c3d0f534cc4d13fd8fe9dc703afd1 b8587174d081d7bc9790465e559930234319ee29
+   git --diff aea924c4347c3d0f534cc4d13fd8fe9dc703afd1 b8587174d081d7bc9790465e559930234319ee29
+   git --diff aea924c4347c3d0f534cc4d13fd8fe9dc703afd1 b8587174d081d7bc9790465e559930234319ee29
+   git diff aea924c4347c3d0f534cc4d13fd8fe9dc703afd1 b8587174d081d7bc9790465e559930234319ee29
+   git log
+   git reset aea924c4347c3d0f534cc4d13fd8fe9dc703afd1 --hard
+   git merge cabecera -m "Primer merge"
+   git log
+   git commit -am "Volvi a una tipografia menos controversial"
+   git checkout cabecera 
+   git merge master -m "Mismo contenido en ambas ramas"
+   git log
+   git merge master
+   git log
+   git checkout master
+   git log
+   git checkout cabecera 
+   git commit -am "Modifique la cabecera y el color del texto"
+   git checkout master
+   git commit -am "Agregue suscripcion, cambie la cabecera maestra y puse todo azul"
+  git checkout cabecera 
+  git cofig -l
+  git config -l
+  git remote
+  git remote -v
+  git remote
+  git remote -v
+  git remote set-url
+  git remote set-url prigin git@github.com:CarlosEBP1998/Hyperblog.git
+  git remote set-url origin git@github.com:CarlosEBP1998/Hyperblog.git
+  git remote -v
+  git pull
+  git pull origin main
+  git diff
+  git commit -am "Una version de el Hyperblog"
+  git branch
+  git pull origin main
+  git push origin master
+  git push origin main
+  git diff
+  git commit -am "Arreglando los estilos css"
+  git push origin main
+  git log -all
+  git log
+  git log -a
+  git log
+  git log
+  git log
+  git banch
+  git branch
+  git log --all
+  git log --all --graph
+  git log --all --graph --decorate --oneline
+  git log --all --decorate
+  git log --all --decorate --oneline
+  git log --all --graph --decorate --oneline
+  alias arbolito="git log --all --graph --decorate --oneline"
+  git tag -a v0.1 -m "Resultado de las primeras clases del curso"
+  git tag
+  git show-ref --tags
+  git pull origin main
+  git push origin --tags
+  git pull origin main
+  git push origin --tags
+  git tag
+  git pull origin main
+  git push origin --tags
+  git show branch
+  git show-branch
+  git show-branch --all
+  gitk
+  sudo apt install gitk
+  gitk
+  git checkout cabecera 
+  git push origin cabecera
+  git branch header
+  git branch footer
+  git branch
+  git branch -D header
+  git branch -D footer
+  git checkout main 
+  git branch header
+  git branch footer
+  git branch
+  git push origin header
+  git push origin footer
+  git commit -am "agregue link para comandos del curso"
+  git pull origin main
+  git push origin main
+  git config
+  git config --global
+  git config --global --get
+  git config -l
+  git branch -m master main
+  git init
+  git branch
+  git branch
+  git branch -m master main
+  git branch -M main
+  git branch -M master main
+  git branch experimentos
+  git branch
+  git commit -m "xd"
+  git branch
+  git branch -M master main
+  git branch
+  git config -l
+  git log
+  git pull origin master
+  git pull origin mainr
+  git pull origin main
+  git log
+  git show
+  git branch
+  git remote -v
+  git checkout header 
+  git log
+  git branch main 
+  git checkout main
+  git log
+  git checkout header 
+  git commit -am "Logo del header"
+  git log --stat
+  git reset --hard HEAD~1
+  git checkout main
+  git log -all
+  git log --all
+  git checkout header
+  git commit -am "Logo del header"
+  git pull origin header
+  git push origin header
+  git diff
+  git commit -am "Logo mejorado"
+  git pull origin header
+  git push origin header
+  git commit -am "Agregamos un logotipo" blogpost.html 
+  git commit -am "Agregamos un logotipo" blogpost.html 
+  git commit -m "Agregamos un logotipo" blogpost.html 
+  git commit -m "Agregamos estilo al logo, color de fondo etx" css/estilos.css 
+  git checkout main
+  git branch
+  git checkout header 
+  git checkout main
+  git checkout header 
+  git checkout main
+  git checkout header 
+  git checkout main
+  git checkout header 
+  git checkout main
+  git checkout header 
+  git checkout footer 
+  git pull origin footer
+  git checkout main
+  git merge header
+  git push origin main
+  git branch
+  git checkout footer
+  git pull origin footer
+  git checkout main
+  git merge footer
+  git merge --abort
+  git merge footer
+  git commit -am "Arregle los conflictos en el merge entre footer y main"
+  git log
+  git merge footer
+  git log
+  git pull origin main
+  git push origin main
+  git status
+  git pull origin main
+  git commit -am "Cambie el titulo"
+  git stauts
+  git status
+  git pull origin main
+  git log --all --graph --decorate --oneline
+  git push origin master
+  git push origin main
+  git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  sudo git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  git remote -v
+  sudo git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  sudo git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  sudo git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  git clone git@github.com:CarlosEBP1998/Hyperblog.git
+  git pull origin main
+  git clone git@github.com:CarlosEBP1998/hyperblog-1.git
+  git commit -am "Agregue mi nombre con un Fork al blog de Platzi"
+  git pull origin main
+  git branch
+  git pull origin master
+  git push origin master
+  git branch
+  git stauts
+  git status
+  touch .gitignore
+  git status
+  git add .
+  git status
+  git commit -am "Agregue una imagen al blog y a .ignore"
+  git status
+  git push origin main
+  git pull origin main
+  git push origin main
+  git commit -am "README modificado para explicar bien el proyecto a futuros estudiantes"
+  git pull origin main
+  git push origin main
+  git clone git@github.com:CarlosEBP1998/CarlosEBP1998.git
+  git add index.html 
+  git commit -m "Primera version de mi index.html"
+  git pull origin main
+  git branch
+  git branch master main
+  git branch -M master main
+  git branch
+  git pull origin main
+  git push origin main
+  git status
+  git commit -am "Master 1"
+  alias arbolito="git log --all --graph --decorate --oneline"
+  git branch experimento
+  git checkout experimento 
+  git commit -am "Exp 1"
+  git commit -am "Exp 2"
+  git commit -am "Exp 2"
+  git checkout main 
+  git checkout experimento 
+  git rebase main
+  git checkout main 
+  git commit -am "Master 2"
+  git checkout experimento 
+  git branch
+  git rebase main
+  git checkout mai
+  git checkout main
+  git log
+  git branch
+  git rebase experimento 
+  git pull origin main
+  git push origin main
+  git branch -D experimento 
+  gitk
+  git status
+  git checkout footer
+  git stash
+  git stash list
+  git checkout footer
+  git checkout -
+  git stash pop
+  git status
+  git stash
+  git stahs list
+  git stash list
+  git stash branch english-version
+  git status
+  git commit -am "I speak english now"
+  git checkout -
+  git stash
+  git stash clear
+  git stash list
+  git status
+  git stash brach header
+  git branch
+  git stash branch header
+  git stash list
+  git status
+  git stash
+  git stash branch header
+  git branch header
+  git stash checkout header
+  git checkout header
+  git stash pop
+  git merge abort
+  git status
+  git stash pop abort
+  git merge --abort
+  git stash list
+  git reset HEAD --hard
+  git status
+  git checkout -
+  git status
+  git clean
+  git clean --dry-run
+  git clean -f
+  git status
+  git clean -df
+  git status
+  git stash
+  git stash branch readme-mejorado
+  git commit -am "Creditos a mi"
+  alias arbolito="git log --all --graph --decorate --oneline"
+  git status
+  git log
+  git stash list
+  git log --online
+  git log --oneline
+  git commit -am "Ejemplos en Win, Lin y Mac""
+  git log
+  git commit -am "Ejemplos en Win, Lin y Mac"
+  git log --oneline
+  git commit -am "Diverso y atractivo para todos"
+  git checkout -
+  git cherry-pick 65be9b4
+  git pull origin main
+  git push origin main
+  git merge readme-mejorado 
+  git status
+  git commit -am "Readme mejorado"
+  git push origin main
+  git status 
+  git log
+  git branch
+  git log
+  git stash branch readme-mejorado
+  alias arbolito="git log --all --graph --decorate --oneline"
+  git log
+  git pull origin main
+  git reflog
+  git status
+  git commit -am "Cambio al titulo y tagline del footer"
+  git add css/estilos.css 
+  git commit --amend
+  git log --stat
+  git checkout cabecera 
+  git log
+  git checkout -
+  git branch
+  git branch -a
+  git origin -v
+  git status
+  git add .
+  git commit -m "Agrego el archivo de final del proyecto en donde recopilo todos los comandos utilizados a lo largo del curso"
+  git pull origin main
+  git push origin main
+  git status
+  history | grep git >> comandos.txt 
